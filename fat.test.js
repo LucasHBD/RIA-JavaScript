@@ -1,4 +1,4 @@
-import { fat } from './fat';
+const fat = require('./fat');
 
 test('Teste o fatorial de 4', () => {
     expect(fat(4)).toBe(24);
