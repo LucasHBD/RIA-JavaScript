@@ -1,4 +1,4 @@
-abstract class Veiculo{
+export abstract class Veiculo{
     constructor(public marca: string){}
 
     abstract descrever(): string;
